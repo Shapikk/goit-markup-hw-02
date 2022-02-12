@@ -28,6 +28,9 @@ span.studio {
 .site-nav .link:focus {
   color: var(--address-color);
 }
+.site-nav .link.current {
+  color: var(--address-color);
+}
 .auth-nav .link {
   color: var(--primery-text-color);
 }
@@ -67,4 +70,9 @@ span.studio-two {
 .site-address .link:hover,
 .site-address .link:focus {
   color: var(--address-color);
+}
+/* Кнопка */
+.button {
+  background-color: var(--address-color);
+  color: #ffffff;
 }
