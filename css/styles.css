@@ -17,6 +17,7 @@ h3 {
 }
 .logo {
   color: var(--address-color);
+  font-family: Raleway, cursive;
 }
 span.studio {
   color: var(--title-text-color);
