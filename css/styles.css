@@ -76,3 +76,8 @@ span.studio-two {
   background-color: var(--address-color);
   color: #ffffff;
 }
+/* Потрфолио кнопки  */
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
