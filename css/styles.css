@@ -26,6 +26,7 @@ h3 {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 span.studio {
   color: var(--title-text-color);
@@ -38,6 +39,7 @@ span.studio {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -52,6 +54,7 @@ span.studio {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -60,6 +63,7 @@ span.studio {
 /* Секция 1  */
 .hero {
   background-color: #2f303a;
+  transform: perspective(normal);
 }
 .hero-title {
   color: #ffffff;
@@ -70,9 +74,7 @@ span.studio {
   letter-spacing: 0.06em;
 }
 /* Секция 2,3 */
-.section-title {
-  background-color: #e5e5e5;
-}
+
 .site-name {
   font-weight: bold;
   font-size: 14px;
@@ -109,9 +111,11 @@ span.studio-two {
 }
 .address {
   color: #ffffff;
+  text-decoration: none;
 }
 .site-address .link {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .site-address .link:hover,
 .site-address .link:focus {
