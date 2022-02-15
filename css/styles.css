@@ -81,6 +81,12 @@ span.studio {
   line-height: 1.14px;
   text-transform: uppercase;
 }
+.site-p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
 /* Секция 4  */
 .section-com {
   background-color: #f5f4fa;
@@ -112,10 +118,16 @@ span.studio-two {
 .address {
   color: #ffffff;
   text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
 }
 .site-address .link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
 }
 .site-address .link:hover,
 .site-address .link:focus {
@@ -126,12 +138,24 @@ span.studio-two {
   background-color: var(--address-color);
   color: #ffffff;
   cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 /* Потрфолио кнопки  */
 .button.secondary {
   color: var(--title-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
 }
 .port-name {
   font-weight: bold;
