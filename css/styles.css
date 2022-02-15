@@ -157,6 +157,10 @@ span.studio-two {
   line-height: 1.6;
   text-align: center;
 }
+.button.secondary:hover {
+  color: #ffffff;
+  background-color: var(--address-color);
+}
 .port-name {
   font-weight: bold;
   font-size: 18px;
